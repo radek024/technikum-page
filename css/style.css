@@ -1,349 +1,70 @@
-body{
-    padding-top: 50px;
-    color: #FFF;
-    font-family: Titillium Web, sans-serif;
+body{padding-top:50px;color:#FFF;font-family:Titillium Web, sans-serif;}
+p{font-size:20px;}
+section, footer{padding-bottom:5%;}
+.navbar-default .navbar-nav>li{text-align:center;text-transform:uppercase;font-weight:700;margin:auto;}
+.navbar-brand .brand-name{font-size:16px;margin:0;}
+.container-fluid{padding:0;margin:0;}
+.container-fluid .container{width:96%;padding:0 2%;margin:0 auto;max-width:1100px;}
+.welcome{background:url('../img/bg.jpg');background-size:cover;}
+.container .text-center{font-size:36px;}
+.container .entry{padding:200px 0;}
+.btn{box-shadow:0 8px 0 #1b383b;display:flex;align-items:center;justify-content:center;width:200px;height:66px;margin:50px auto 0;text-transform:uppercase;transition:1s;}
+.btn-warning{box-shadow:0 6px 0 #CA6B40;}
+.btn-warning:hover{box-shadow:0 6px 0 #A84928;}
+.btn-success{background-color:#17C2A4;box-shadow:0 6px 0 #13A78D;}
+.btn-success:hover{box-shadow:0 6px 0 #05A082;}
+.services{background-color:#17C2A4;}
+.article-title{font-weight:700;font-size:36px;padding-top:10%;text-transform:uppercase;letter-spacing:1px;}
+.article-title::after{display:block;height:3px;background:rgba(0,0,0,0.14);content:"";width:50px;margin:0 auto;margin-top:25px;}
+.article-description{font-size:16px;padding:0 20%;}
+.pros .glyphicon{font-size:65px;}
+.pros .pros-description .pros-title{text-transform:uppercase;font-weight:700;}
+.services .glyphicon{font-size:64px;}
+.article-content-title{font-size:20px;font-weight:700;text-transform:uppercase;padding:4%;}
+.services .article-content{font-size:16px;}
+.services .article-description{padding-bottom:20px;}
+.services .row{padding-bottom:10%;}
+.team{background-color:#E7F1F8;color:#3C4761;}
+.team .article-content-title{padding:2%;}
+.team .row .teacher-position{font-size:16px;color:#48C1E9;}
+.team .article-content{font-size:18px;}
+.team .socials{list-style-type:none;display:inline-block;margin:0;padding:5% 0 10%;width:100%;}
+.socials>.social-link i{width:35px;height:35px;display:flex;align-items:center;justify-content:center;background-color:#FFF;border-radius:50%;margin:0 auto;}
+.socials>.social-link i:hover{background-color:#3C4761;transition:0.5s;color:#FFFFFF;}
+.socials a{color:#3C4761;}
+.socials a:hover{background-color:#666666;transition:0.3s;text-decoration:none;color:#3C4761;}
+.skills{background-color:#FFF;color:#3C4761;}
+.skills .skills-list{list-style-type:none;padding:0;margin:0;}
+.skills .skills-list>li{padding:0 0 1%;}
+.skills .skill-title{text-transform:uppercase;font-size:16px;font-weight:700;}
+.skills .skill-content{width:120px;margin:0 auto;}
+.portfolio{background-color:#FFDD99;color:#393939;}
+.portfolio .nav{display:table;width:385px;padding:0;margin:0 auto;max-width:700px;*/}
+.portfolio .nav-tabs{border-bottom:0;}
+.portfolio .tab{width:84px;margin:0 5px;background-color:#000000;border-radius:5%;text-transform:uppercase;}
+.portfolio .tab a{width:84px;color:#555;border-radius:5%;}
+.portfolio .tab a:focus, .nav .tab a:hover, li.active{color:#3939339;width:84px;background-color:#FFFFFF;margin:0;border-radius:3%;transition:2s;}
+.portfolio .work-list{margin-top:5%;}
+.portfolio .work-list>li{list-style-type:none;}
+.portfolio .work-list .work-title{text-transform:uppercase;margin-bottom:5%;font-size:17px;font-weight:700;margin:10px 0 20px;}
+.opinions{background-color:#D74680;}
+.opinions blockquote{border:0;text-align:left;}
+.opinions .quote{font-size:13px;text-align:justify;}
+.opinions .media{margin-top:0;}
+.opinions .media-heading{font-size:16px;}
+.opinions .media-body .author-post{color:#ffdd99;font-size:13px;}
+.contact{background-color:#3C5499;}
+.contact .contact-info{padding:2% 0;font-weight:700;}
+.contact .contact-info .contact-mail{color:#FFFFFF;}
+.social-footer{text-align:center;padding:1% 0;background-color:#004D40;}
+.school-social{max-height:60px;float:left;list-style-type:none;font-weight:700;width:calc(100%/3);}
+.social-footer .social-footer-desc{font-size:16px;font-weight:700;}
+.social-footer .socials-links{padding:0;margin:0;display:inline-table;width:100%;}
+.social-footer .socials-links .school-social{display:inline;}
+.social-footer .socials-links .link{color:#FFFFFF;text-transform:uppercase;}
+.social-footer .website-author{color:#DDDDDD;text-align:right;padding:2% 2% 0 0;font-size:14px;text-transform:uppercase;}
+.social-footer .website-author .author-link{color:#99DFFD;}
+@media (min-width:768px){.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{margin-left:0;}
 }
-
-p{
-    font-size:20px;
-}
-
-section, footer{
-  padding-bottom: 5%;
-}
-
-.navbar-default .navbar-nav>li{
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: 700;
-  margin: auto;
-}
-
-.navbar-brand .brand-name{
-  font-size:16px;
-  margin:0;
-}
-
-.container-fluid{
-    padding: 0;
-    margin: 0;
-}
-
-.container-fluid .container{
-    width: 96%;
-    padding: 0 2%;
-    margin: 0 auto;
-    max-width: 1100px;
-
-}
-
-.welcome{
-    background-color: blueviolet;
-}
-
-.container .text-center{
-    font-size: 36px;
-}
-
-.container .entry{
-    padding: 200px 0;
-}
-
-.btn{
-  box-shadow: 0 8px 0 #1b383b;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 200px;
-  height: 66px;
-  margin: 50px auto 0;
-  text-transform: uppercase;
-  transition: 1s;
-}
-
-
-.btn-warning{
-  box-shadow: 0 6px 0 #CA6B40;
-}
-
-.btn-warning:hover{
-  box-shadow: 0 6px 0 #A84928;
-}
-
-.btn-success
-{
-  background-color: #17C2A4;
-  box-shadow: 0 6px 0 #13A78D;
-}
-
-.btn-success:hover{
-  box-shadow: 0 6px 0 #05A082;
-}
-
-.services{
-    background-color:#17C2A4;
-}
-
-.article-title{
-    font-weight: 700;
-    font-size: 36px;
-    padding-top: 10%;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-
-}
-
-.article-title::after{
-    display: block;
-    height: 3px;
-    background: rgba(0,0,0,0.14);
-    content: "";
-    width: 50px;
-    margin: 0 auto;
-    margin-top: 25px;
-}
-
-.article-description{
-    font-size: 16px;
-    padding:0 20%;
-
-}
-
-.pros .glyphicon{
-    font-size: 65px;
-}
-
-.pros .pros-description .pros-title{
-    text-transform: uppercase;
-    font-weight: 700;
-}
-
-.services .glyphicon{
-  font-size: 64px;
-}
-
-.article-content-title{
-  font-size:20px;
-  font-weight: 700;
-  text-transform: uppercase;
-  padding: 4%;
-}
-
-.services .article-content{
-  font-size: 16px;
-}
-
-.services .row{
-  padding-bottom: 10%;
-}
-
-.team{
-  background-color: #E7F1F8;
-  color: #3C4761;
-}
-
-.team .article-content-title{
-  padding: 2%;
-}
-
-.team .row .teacher-position{
-  font-size: 16px;
-  color:#48C1E9;
-}
-
-.team .article-content{
-  font-size: 18px;
-}
-
-.team .socials{
-  list-style-type: none;
-  display: inline-block;
-  margin: 0;
-  padding: 5% 0 10%;
-  width: 100%;
-}
-
-
-.socials>.social-link i{
-  width: 35px;
-  height: 35px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #FFF;
-  border-radius: 50%;
-  margin: 0 auto;
-}
-
-.socials>.social-link i:hover{
-  background-color: #3C4761;
-  transition: 0.5s;
-  color: #FFFFFF;
-}
-
-.socials a{
-   color: #3C4761;
-}
-
-.socials a:hover{
-  background-color: #666666;
-  transition: 0.3s;
-  text-decoration: none;
-  color: #3C4761;
-}
-
-.skills{
-  background-color: #FFF;
-  color: #3C4761;
-}
-
-.skills .skills-list{
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-.skills .skills-list>li{
-  padding: 0 0 1%;
-}
-
-.skills .skill-title{
-  text-transform: uppercase;
-  font-size: 16px;
-  font-weight: 700;
-}
-
-.skills .skill-content{
-  width: 120px;
-  margin: 0 auto;
-}
-
-.portfolio
-{
-  background-color: #FFDD99;
-  color: #393939;
-}
-
-.portfolio .nav{
-display: table;
-  width: 385px;
-  padding: 0;
-  margin: 0 auto;
-  max-width: 700px;*/
-}
-
-.portfolio .nav-tabs{
-  border-bottom: 0;
-}
-
-.portfolio .tab{
-  width: 84px;
-  margin: 0 5px;
-  background-color:#000000;
-  border-radius: 5%;
-  text-transform: uppercase;
-}
-
-.portfolio .tab a{
-  width: 84px;
-  color: #555;
-  border-radius: 5%;
-}
-
-.portfolio .tab a:focus, .nav .tab a:hover, li.active {
-  color:#3939339;
-  width: 84px;
-  background-color: #FFFFFF;
-  margin: 0;
-  border-radius: 3%;
-  transition: 2s;
-}
-
-.portfolio .work-list
-{
-  margin-top: 5%;
-}
-
-.portfolio .work-list>li
-{
-  list-style-type: none;
-}
-
-.portfolio .work-list .work-title{
-  text-transform: uppercase;
-  margin-bottom: 5%;
-  font-size: 17px;
-  font-weight: 700;
-  margin: 10px 0 20px;
-}
-
-.opinions
-{
-  background-color: #D74680;
-}
-
-.opinions blockquote
-{
-  border: 0;
-  text-align: left;
-}
-
-.opinions .quote
-{
-  font-size: 13px;
-  text-align: justify;
-}
-
-.opinions .media
-{
-  margin-top: 0;
-}
-
-.opinions .media-heading
-{
-
-  font-size: 16px;
-}
-
-.opinions .media-body .author-post
-{
-  color:#ffdd99;
-  font-size: 13px;
-
-}
-
-.contact
-{
-  background-color: #3C5499;
-}
-
-.contact .contact-info
-{
-  padding: 2% 0;
-  font-weight: 700;
-}
-
-.contact .contact-info .contact-mail
-{
-  color:#FFFFFF;
-}
-
-.school-social{
-  background-color: #DDDDDD;
-  width: 100%;
-  max-height: 60px;
-}
-
-.school-social .title
-{
-  margin: 0;
-  font-size: 16px;
-}
-
-
-@media (min-width: 768px)
-{
-  .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
-    margin-left: 0;
-  }
+@media (min-width:768px) and (max-width:876px){body{padding-top:100px;}
 }
